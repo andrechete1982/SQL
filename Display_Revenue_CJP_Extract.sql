@@ -11,6 +11,7 @@
   WHERE campaign_id = 34730231
     AND floodlightactivity_id = 259820
     AND date BETWEEN '2026-01-01' AND '2026-02-22'
+    AND site_name != 'APEX OUTCOMES (APEXOUTC)'
  )
 
 SELECT
@@ -38,3 +39,4 @@ SELECT
 FROM base
 
 GROUP BY 1,2
+ORDER BY 1 ASC, 2 ASC;
