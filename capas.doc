@@ -1,0 +1,13 @@
+Lo que debe ir en cada de BQ
+  raw
+    * tal como viene la data
+  clean
+    *snake_case
+    *safe_cast
+    *remover simbolos
+    *columnas estandarizadas
+  mart
+    mapeos de taxonomia
+    calculos de metricas
+    Es la que se usa para ooker / Tableau / QA dashboards
+  
